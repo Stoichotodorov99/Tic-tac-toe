@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="642" Width="1173">
+
+    <Grid Background="Beige" Margin="0,-215,0,45">
+        <TextBlock Text=" Tic Tac Toe Game " FontSize="40"  Margin="460 0 0 0 "/>
+
+        <Button x:ConnectionId='2'  Margin="203,87,0,0" VerticalAlignment="Top" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b1" 
+                                    FontSize="70" Background="White"/>
+
+        <Button x:ConnectionId='3' Content="" Margin="484,87,0,0" VerticalAlignment="Top"  Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b2"                   FontSize="70"/>
+
+        <Button x:ConnectionId='4' Content="" Margin="766,87,0,0" VerticalAlignment="Top" Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b3"                   FontSize="70"/>
+
+        <Button x:ConnectionId='5' Content="" Margin="203,275,0,0" VerticalAlignment="Top" Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b4"                   FontSize="70"/>
+
+        <Button x:ConnectionId='6' Content="" Margin="484,275,0,0" VerticalAlignment="Top" Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b5"                   FontSize="70"/>
+
+        <Button x:ConnectionId='7' Content="" Margin="766,275,141,0" VerticalAlignment="Top" Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b6"                   FontSize="70"/>
+
+        <Button x:ConnectionId='8' Content="" Margin="203,461,0,0" VerticalAlignment="Top" Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b7"                   FontSize="70"/>
+
+        <Button x:ConnectionId='9' Content="" Margin="484,460,0,0" VerticalAlignment="Top"  Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b8"                   FontSize="70"/>
+
+        <Button x:ConnectionId='10' Content="" Margin="766,461,0,0" VerticalAlignment="Top" Background="White" Height="175" Width="266" RenderTransformOrigin="1.198,0.79" Name="b9"                   FontSize="70" />
+
+        <Button x:ConnectionId='11' Content="Reply" Margin="203,671,0,0" VerticalAlignment="Top"  Width="234" RenderTransformOrigin="2.021,0.782" Height="73" Background="Orange" FontSize="40"                     />
+
+
+        <TextBox x:ConnectionId='12' HorizontalAlignment="Left" Margin="74,0,0,0" Text="Player 1 win" Name="player1" 
+                   FontSize="200" TextWrapping="Wrap" VerticalAlignment="Center" Height="799" Width="1079" Visibility="Collapsed"/>
+
+        <Button x:ConnectionId='13' Content="Finish Game" FontSize="30" Margin="766,671,0,0" VerticalAlignment="Top" Height="70" Width="228"                        RenderTransformOrigin="0.478,1.064"/>
+
+
+    </Grid>
+</Page>
+
